@@ -1,8 +1,10 @@
 # SecretFriendApp
 ###Practice app created for the Beginner Programming course.
 We use:
-![HTML](https://img.shields.io/badge/Code-HTML-orange?logo=html5&logoColor=white&style=for-the-badge)
-![CSS](https://img.shields.io/badge/Style-CSS-blue?logo=css3&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/Logic-JavaScript-yellow?logo=javascript&logoColor=black&style=for-the-badge)
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" />
+
 
 
