@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Friend App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Secret Friend App</h1>
+        <img src="assets/amigo-secreto.png" alt="Representative image of secret friend">
+    </header>
+
+    <main>
+        <section class="input-section">
+            <h2>Enter Friends' Names</h2>
+            <label for="friend" class="visually-hidden">Enter a friend's name</label>
+            <div class="input-container">
+                <input type="text" id="friend" placeholder="Enter a name">
+                <button onclick="addFriend()">Add Friend</button>
+            </div>
+            <ul id="FriendsList" aria-label="Friends list"></ul>
+            <p id="resultado" aria-live="polite"></p>
+            <button onclick="sortearAmigo()" class="button-primary">Draw Secret Friend</button>
+            <button onclick="reiniciar()" class="button-secondary">Reset</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Secret Friend App</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
